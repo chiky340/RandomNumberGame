@@ -5,7 +5,12 @@ public class Game {
         while(true){
             if (input==random){
                 System.out.println("you guessed right");
+                break;
             }
+            else if (input>random){
+                System.out.println("too high");
+            }
+
 
         }
 
