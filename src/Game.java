@@ -9,6 +9,8 @@ public class Game {
             }
             else if (input>random){
                 System.out.println("too high");
+            } else if (input<random) {
+                System.out.println("too low");
             }
 
 
