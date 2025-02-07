@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Game {
-    public void Cheat() {
+    private void Cheat() {
         System.out.println(random);;
     }
 
