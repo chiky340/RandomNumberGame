@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Game {
     private void Cheat() {
-        System.out.println(random);;
+        System.out.println(random);
     }
 
     private int random;
@@ -17,16 +17,12 @@ public class Game {
             if (input==random){
                 System.out.println("you guessed right");
                 break;
-            } else if (input==1907) {
+            } else if (input==1907)
                 this.Cheat();
-                continue;
-            } else if (input>random){
+              else if (input>random)
                 System.out.println("too high");
-                continue;
-            } else if (input<random) {
+              else if (input<random)
                 System.out.println("too low");
-                continue;
-            }
         }
     }
 }
