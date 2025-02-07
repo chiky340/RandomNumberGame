@@ -7,11 +7,11 @@ public class Game {
 
     private int random;
     public void play() {
-        random =  (int)(Math.random()*100);
+        random =  (int)(Math.random()*10);
 
         while(true){
             var scanner = new Scanner(System.in);
-            System.out.print("enter an Input: ");
+            System.out.print("enter an Input from 1 to 10: ");
             String input = scanner.nextLine();
             input=input.toLowerCase();
 
