@@ -11,7 +11,7 @@ public class Game {
 
         while(true){
             var scanner = new Scanner(System.in);
-            System.out.print("enter an Input from 1 to 10: ");
+            System.out.print("enter an Input from 0 to 10: ");
             String input = scanner.nextLine();
             input=input.toLowerCase();
 
