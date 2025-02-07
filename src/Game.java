@@ -15,8 +15,10 @@ public class Game {
             String input = scanner.nextLine();
             input=input.toLowerCase();
 
-        if (input.equals("break"))
+        if (input.equals("break")) {
+            System.out.println("Aborting...");
             break;
+        }
         else {
             int input2 = Integer.parseInt(input);
             if (input2 == random) {
