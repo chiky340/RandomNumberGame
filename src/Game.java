@@ -15,7 +15,7 @@ public class Game {
             String input = scanner.nextLine();
             input=input.toLowerCase();
 
-        if (input=="break")
+        if (input.equals("break"))
             break;
         else {
             int input2 = Integer.parseInt(input);
