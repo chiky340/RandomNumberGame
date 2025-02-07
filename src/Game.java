@@ -16,7 +16,7 @@ public class Game {
             input=input.toLowerCase();
 
         if (input.equals("break")) {
-            System.out.println("Aborting...");
+            System.out.println("Aborting... \n Done");
             break;
         }
         else {
