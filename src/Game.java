@@ -1,12 +1,13 @@
 import java.util.Scanner;
 
 public class Game {
+    private int random;
     public void play() {
-        int random =  (int)(Math.random()*10);
+        random =  (int)(Math.random()*10);
 
         while(true){
             var scanner = new Scanner(System.in);
-            System.out.println("enter an Input");
+            System.out.print("enter an Input: ");
             int input = scanner.nextInt();
 
             if (input==random){
@@ -20,9 +21,6 @@ public class Game {
                 System.out.println("too low");
                 continue;
             }
-
-
         }
-
     }
 }
