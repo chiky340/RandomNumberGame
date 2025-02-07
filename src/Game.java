@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Game {
-    public void play(int input) {
+    public void play() {
         int random =  (int)Math.random()*10;
 
         while(true){
