@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Game {
     public void play() {
-        int random =  (int)Math.random()*10;
+        int random =  (int)(Math.random()*10);
 
         while(true){
             var scanner = new Scanner(System.in);
