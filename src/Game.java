@@ -13,6 +13,7 @@ public class Game {
             var scanner = new Scanner(System.in);
             System.out.print("enter an Input: ");
             String input = scanner.nextLine();
+            input=input.toLowerCase();
 
         if (input=="break")
             break;
