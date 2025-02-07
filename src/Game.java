@@ -26,6 +26,8 @@ public class Game {
                 break;
             } else if (input2 == 1907)
                 this.Cheat();
+            else if (input2>10)
+                System.out.println("Read the instructions");
             else if (input2 > random)
                 System.out.println("too high");
             else if (input2 < random)
