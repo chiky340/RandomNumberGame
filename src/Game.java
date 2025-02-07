@@ -12,7 +12,7 @@ public class Game {
         while(true){
             var scanner = new Scanner(System.in);
             System.out.print("enter an Input: ");
-            int input = scanner.nextInt();
+            String input = scanner.nextLine();
 
             if (input==random){
                 System.out.println("you guessed right");
