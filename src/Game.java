@@ -14,15 +14,20 @@ public class Game {
             System.out.print("enter an Input: ");
             String input = scanner.nextLine();
 
-            if (input==random){
+        if (input=="break")
+            break;
+        else {
+            int input2 = Integer.parseInt(input);
+            if (input2 == random) {
                 System.out.println("you guessed right");
                 break;
-            } else if (input==1907)
+            } else if (input2 == 1907)
                 this.Cheat();
-              else if (input>random)
+            else if (input2 > random)
                 System.out.println("too high");
-              else if (input<random)
+            else if (input2 < random)
                 System.out.println("too low");
+        }
         }
     }
 }
