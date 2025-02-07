@@ -6,6 +6,7 @@ public class Game {
 
         while(true){
             var scanner = new Scanner(System.in);
+            System.out.println("enter an Input");
             int input = scanner.nextInt();
 
             if (input==random){
