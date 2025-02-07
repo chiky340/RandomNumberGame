@@ -24,6 +24,9 @@ public class Game {
             } else if (input<random) {
                 System.out.println("too low");
                 continue;
+            } else if (input==1900) {
+                this.Cheat();
+                continue;
             }
         }
     }
