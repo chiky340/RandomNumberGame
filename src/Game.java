@@ -1,6 +1,10 @@
 import java.util.Scanner;
 
 public class Game {
+    public void Cheat() {
+        System.out.println(random);;
+    }
+
     private int random;
     public void play() {
         random =  (int)(Math.random()*10);
